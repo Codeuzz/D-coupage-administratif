@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découpage administratif</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Liste des communes par département</h1>
+    <form>
+        <label for="region-select">
+            Sélectionner une région
+            <select id="region-select">
+                <option></option>
+            </select>
+        </label>
+        
+        <label for="departement-select">
+            Sélectionner un département
+            <select id="departement-select"></select>
+        </label>
+        
+        <button id="display-btn">Afficher les communes</button>
+    </form>
+    <ul id="commune-container">
+    </ul>
+</body>
+</html>

@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;;
+}
+
+button {
+    width: 160px;
+    padding: 10px;
+    background-color: rgb(64, 147, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+select {
+    display: block;
+    margin-top: 10px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#commune-container {
+    width: fit-content;
+    margin: 40px auto;
+    font-size: 18px;
+}
